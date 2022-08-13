@@ -1,9 +1,33 @@
+body{
+  background-color: #282c34;
+}
+
+header{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size: 2rem;
+  color: LightSteelBlue;
+  align-items: baseline;
+}
+
+h3{
+  font-size: 1.5rem;
+  color: LightSteelBlue;
+}
+
+p{
+  color: LightSteelBlue;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 3rem;
   pointer-events: none;
 }
 
@@ -14,18 +38,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
