@@ -1,53 +1,37 @@
 body{
-  background-color: #282c34;
+  background-color: coral;
 }
 
-header{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+nav{
+  margin-top: 0rem !important;
+  margin: 1.5 rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #A11C41;
+  background-size: cover;
 }
 
-h1{
-  font-size: 2rem;
-  color: LightSteelBlue;
-  align-items: baseline;
+nav ul{
+  list-style-type: none;
+  padding: 1rem;
 }
 
-h3{
-  font-size: 1.5rem;
-  color: LightSteelBlue;
+nav ul li{
+  display: inline-block;
+  margin: .25rem;
 }
 
-p{
-  color: LightSteelBlue;
+nav ul li:hover{
+  color: coral;
 }
 
-.App {
-  text-align: center;
+.cart{
+margin-left: 60rem;
 }
 
-.App-logo {
-  height: 3rem;
-  pointer-events: none;
+.cart:hover{
+  color: coral;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listContainer{
+  margin: 1rem;
 }
